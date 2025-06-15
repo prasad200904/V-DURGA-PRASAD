@@ -1,79 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <header>
-        <div class="logo-nav">
-            <div class="logo">MyPortfolio</div>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
-            </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="page-wrapper">
+<header>
+  <div class="logo-nav">
+    <div class="logo"><a href="#home">V DURGA PRASAD</div></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home">
+  <div class="container-fluid">
+    <div class="row about-row">
+      <div class="col-md-6 text-center">
+        <img src="img/preshu.jpeg" alt="My Photo" class="profile-pic rounded-circle">
+      </div>
+      <div class="col-md-6 my-col">
+        <h2>VUNDRALA DURGA PRASAD</h2>
+        <p>Hello! I'm a passionate developer interested in building smart and creative web applications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section id="about">
+  <div class="container-fluid my-box" id="skills">
+    <h1 class=" ms-5 txt-me">ABOUT</h1>
+    <p class="ms-5" style="font-size: 20px;">I’m a builder of ideas. Whether it’s coding a smart system or designing a responsive web page, I enjoy the process of transforming imagination into reality. With a background in IoT and a heart in web development, I’m on a journey to craft clean, modern, and meaningful digital experiences.</p>
+    <div class="row">
+      <div class="col ms-5">
+        <h2>FULL STACK DEVELOPER</h2>
+        <p>I'm a Full Stack Developer with experience in frontend (HTML, CSS, JavaScript, React) and backend (Node.js, PHP, SQL) technologies. I enjoy creating complete web solutions that are fast, scalable, and user-friendly.</p>
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li><i class="bi bi-arrow-up-short"></i><strong>Name</strong>  <span>V Durga Prasad</span></li>
+              <li><i class="bi bi-arrow-up-short"></i><strong>Birthday</strong> <span>20-09-2004</span></li>
+              <li><i class="bi bi-arrow-up-short"></i><strong>Education</strong> <span>B-Tech</span></li>
+               <li><i class="bi bi-arrow-up-short"></i><strong>Profession</strong> <span>Full Stack Web Developer</span></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+            <li><i class="bi bi-arrow-up-short"></i><strong>Email</strong>  <span>vundraladurgaprasad@gmail.com</span></li>
+              <li><i class="bi bi-arrow-up-short"></i><strong>Phone</strong> <span>+91 9618909534</span></li>
+              <li><i class="bi bi-arrow-up-short"></i><strong>Freelancer</strong> <span>web-service</span></li>
+              <li><i class="bi bi-arrow-up-short"></i><strong>City</strong> <span>Vijayawada,AP,India</span></li>
+              </ul>
+          </div>
         </div>
-    </header>
-    <body>
-        <section id="about">
-            <div class="about-container">
-                <img src="preshu.jpeg" alt="My Photo" class="profile-pic">
-                <div class="about-text">
-                <h2>VUNDRALA DURGA PRASAD</h2>
-                <p>Hello! I'm a passionate developer interested in building smart and creative web applications.</p>
-                </div>   
-            </div>
-        </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2>PROJECTS</h2>
-        <div class="p-container">
-        <section id="projects">
-            <div class="project-container">
-                <div class="bg-box">
-                    <div class="box">
-                    <h2>My Portfolio</h2>    
-                    <img src="web.png" alt="pic-1">
-                    <p>This website is a personal profile and portfolio site that I designed and developed to showcase my skills, projects, and achievements.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <p>I have a deep interest in web development, particularly in building responsive full-stack applications that combine both frontend design and backend logic.</p>
+      </div>
+       <div class="col-md-6 my-web">
+        <img src="img/web-dev.jpg" alt="web-dev" class="web-dev">
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section id="skills">
+  <div class="container-fluid">
+    <h2 class="ms-5">SKILLS</h2>
+    <p class="ms-5">Proficient in full stack web development using HTML, CSS, JavaScript, Bootstrap, PHP, Node.js, MySQL, with knowledge of Python, RESTful APIs, Git, and responsive UI design.</p>
+     <div class="skills-section" id="skillsSection">
+    <div class="skills-column">
+      <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar"><div class="skill-fill html" data-width="90%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar"><div class="skill-fill css" data-width="80%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar"><div class="skill-fill js" data-width="70%"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-column">
+      <div class="skill">
+        <div class="skill-name">Python</div>
+        <div class="skill-bar"><div class="skill-fill python" data-width="85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">SQL</div>
+        <div class="skill-bar"><div class="skill-fill sql" data-width="75%"></div></div>
+      </div>
+       <div class="skill">
+        <div class="skill-name">php</div>
+        <div class="skill-bar"><div class="skill-fill php" data-width="75%"></div></div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section id="projects">
+  <div class="container-fluid skill-box">
+    <h2>PROJECTS</h2>
+    <div class="row my-skill">
+      <div class="col my-project" id="zoomBox">
+          <a href="https://apexcropgenetics.com/"><img src="img/apex.png" alt="img" class="img1"></a>
+          <h5>ApexCropGenetics – Real-Time Agricultural Website</h5>
+          <p>Designed and developed a dynamic, real-time agricultural website for ApexCropGenetics using WordPress. The site serves as a digital platform for showcasing agricultural products, including crop genetics, fertilizers, and pesticides. Integrated user-friendly navigation, responsive design, and real-time updates to improve customer engagement and trust.</p>
+      </div>
+      <div class="col my-project"id="zoomBox">
+          <a href="https://web-dev-onlineexam.lovestoblog.com/"><img src="img/web (2).png" alt="img" class="img1"></a>
+          <h5>Web Development Quiz Test Application</h5>
+          <p>Built an interactive Web Development Quiz Test system using JavaScript, PHP, and MySQL. The platform allows users to attempt multiple-choice quizzes, submit answers, and view their scores instantly. It includes features for question management, time tracking, and result storage.</p>
+      </div>
+      <div class="col my-project" id="zoomBox">
+          <a href="https://prasad200904.github.io/RohitSharma_blogWebsite/"><img src="img/rohit.png" alt="img" class="img1"></a>
+          <h5>Rohit Sharma Blog Website</h5>
+          <p>Created a stylish and responsive blog website dedicated to cricketer Rohit Sharma using HTML, CSS, and Bootstrap. The website features his biography, career milestones, image galleries, and recent updates. Emphasized clean UI, mobile responsiveness, and engaging user experience with Bootstrap components.</p>
+      </div>
+      <div class="col my-project" id="zoomBox">
+          <img src="img/portfolio.png" alt="img" class="img1">
+          <h5>Personal Portfolio Website</h5>
+          <p>Designed and developed a fully responsive portfolio website using HTML, CSS, and JavaScript to showcase personal projects, skills, achievements, and contact information. Implemented smooth animations, dynamic effects, and clean UI to provide an engaging user experience across devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="certificate">
+  <div class="container-fluid certificate-box">
+    <h2 class="ms-5">CERTIFICATES</h2>
+    <div class="scroll-wrapper">
+    <div class="scroll-container" id="autoScroll">
+      <!-- Repeating to create infinite scroll illusion -->
+      <a href="#popup1"><img src="img/python.jpg" alt="Cert 1" class="certificate"></a>
+      <a href="#popup2"><img src="img/GL.jpg" alt="Cert 2" class="certificate"></a>
+      <a href="#popup3"><img src="img/ajhub.jpg" alt="Cert 3" class="certificate"></a>
+      <a href="#popup4"><img src="img/VXL.jpg" alt="Cert 4" class="certificate"></a>
+      <a href="#popup5"><img src="img/datavalley.jpg" alt="Cert 5" class="certificate"></a>
+      <a href="#popup6"><img src="img/edureka.jpg" alt="Cert 6" class="certificate"></a>
+
+       <a href="#popup1"><img src="img/python.jpg" alt="Cert 1" class="certificate"></a>
+      <a href="#popup2"><img src="img/GL.jpg" alt="Cert 2" class="certificate"></a>
+      <a href="#popup3"><img src="img/ajhub.jpg" alt="Cert 3" class="certificate"></a>
+      <a href="#popup4"><img src="img/VXL.jpg" alt="Cert 4" class="certificate"></a>
+      <a href="#popup5"><img src="img/datavalley.jpg" alt="Cert 5" class="certificate"></a>
+      <a href="#popup6"><img src="img/edureka.jpg" alt="Cert 6" class="certificate"></a>
+
+    </div>
+  </div>
+
+  <!-- Popup 1 -->
+<div id="popup1" class="popup">
+  <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+  <img src="python.jpg" alt="Certificate 1">
+</div>
+
+<!-- Popup 2 -->
+<div id="popup2" class="popup">
+  <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+  <img src="GL.jpg" alt="Certificate 2">
+</div>
+
+<!-- Popup 3 -->
+<div id="popup3" class="popup">
+  <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+  <img src="ajhub.jpg" alt="Certificate 3">
+</div>
+
+<!-- Popup 4 -->
+<div id="popup4" class="popup">
+  <span class="close-btn" onclick="closePopup('popup4')">&times;</span>
+  <img src="VXL.jpg" alt="Certificate 4">
+</div>
+
+<!-- Popup 5 -->
+<div id="popup5" class="popup">
+  <span class="close-btn" onclick="closePopup('popup5')">&times;</span>
+  <img src="datavalley.jpg" alt="Certificate 5">
+</div>
+
+<!-- Popup 6 -->
+<div id="popup6" class="popup">
+  <span class="close-btn" onclick="closePopup('popup6')">&times;</span>
+  <img src="edureka.jpg" alt="Certificate 6">
+</div>
+
+</section>
+<section id="contact">
+<div class="container-fluid my-contact">
+  <h2 class="ms-5">CONTACT</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row contact-box">
+        <div class="col-12 d-flex align-items-center mb-3">
+          <img src="img/loacation.png" alt="location" class="img-icon me-3">
+          <div>
+            <h6 class="cont-txt">Address</h6>
+             <p>9-23-7, Kothapeta, Vijayawada-520001, AP, India</p>
+          </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2>Skill</h2>
-        <div class="s-container">
-            <section id="skills">
-                <div class="s-box">
-                <div class="skill-container">
-                    <img src="skill-1.jpeg" alt="skill-1" class="skill-img">
-                    <img src="skill-2.jpeg" alt="skill-2" class="skill2-img">
-                    <img src="skill-3.jpeg" alt="skill-3" class="skill3-img">
-                    <img src="skill-4.jpeg" alt="skill-4" class="skill4-img">
-                </div>c
-                </div>
-            </section>
+
+     <div class="col-12 d-flex align-items-center mb-3">
+       <img src="img/phone.png" alt="phone" class="img-icon me-3">
+      <div>
+        <h6 class="cont-txt">Call Us</h6>
+        <p>+91 9618909534</p>
+      </div>
+     </div>
+      <div class="col-12 d-flex align-items-center">
+      <img src="img/email.png" alt="email" class="img-icon me-3">
+      <div>
+        <h6 class="cont-txt">Email Us</h6>
+        <p>vundraladurgaprasad@gmail.com</p>
+      </div>
+    </div>
+
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.0489385731195!2d80.6292787741313!3d16.506174827688074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f1a8ea20bb49%3A0xc41d90f443a304e9!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1718444408420!5m2!1sen!2sin"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <form class="my-form">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Enter your name">
+        <label for="fname">Email</label>
+        <input type="text" id="femail" name="email" placeholder="Enter your email">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="write something.." style="height: 200px;"></textarea>
+        <div class="text-center">
+        <input type="submit" value="submit" class="my-submit">
         </div>
-         <br>
-        <br>
-        <div class="c-container">
-            <section id="contact">
-                <div class="c-box">
-                    <h2>Contact Us</h2>
-                    <p>I’d love to hear from you! Whether you have a question, a project idea, an internship opportunity, or just want to connect — feel free to reach out.</p>
-                </div>"
-                <div class="c-contact">
-                    
-                </div>
-            </section>
-        </div>
-    </body>
+      </form>
+    </div>
+  </div>
+ </div>
+</section>
+</div>
+<footer>
+  <div class="container-fluid text-center my-footer">
+    <P>  © 2025 V DURGA PRASAD</P>
+    <div class="social-logo gap-3">
+      <a href="https://www.linkedin.com/in/durga-prasad-v-5b41b2321/"><img src="img/link.png" alt="linkedin" class="link-img"></a>
+      <a href="https://github.com/prasad200904?tab=repositories"><img src="img/git.png" alt="linkedin" class="social-img"></a>
+      <a href="https://www.instagram.com/explore/"><img src="img/insta.png" alt="linkedin" class="social-img"></a>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
 </html>
